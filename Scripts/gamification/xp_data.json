@@ -1,8 +1,8 @@
 {
-  "total_xp": 50,
+  "total_xp": 100,
   "current_streak": 1,
   "longest_streak": 0,
-  "last_study_date": "2025-11-04",
+  "last_study_date": "2025-11-06",
   "achievements_unlocked": [],
   "activity_log": [
     {
@@ -10,9 +10,15 @@
       "activity": "study_session",
       "xp": 50,
       "duration_hours": 1.5
+    },
+    {
+      "date": "2025-11-06T23:59:02.246949",
+      "activity": "study_session",
+      "xp": 50,
+      "duration_hours": 1.5
     }
   ],
-  "total_hours": 1.5,
+  "total_hours": 4.5,
   "weeks_completed": 0,
   "certifications": 0,
   "projects_completed": 0,

@@ -37,16 +37,16 @@ This journey is about more than just learning tools - it's about adopting a mind
 
 Current Phase: Phase 1: Foundation
 Current Week: Week 1
-Current Day: Day 1
-Hours Invested: 1.5 / 384 total
-Study Sessions Completed: 1 / 192
+Current Day: Day 2 (Completed)
+Hours Invested: 3.0 / 384 total
+Study Sessions Completed: 2 / 192
 ```
 
 ### 🎓 Certification Journey
 
 | Certification | Target Date | Status | Study Hours | Cost | Score |
 |--------------|-------------|---------|-------------|------|-------|
-| 🟡 AWS Cloud Practitioner | January 2026 | 📚 Week 1/12 | 1.5/40 | $100 | - |
+| 🟡 AWS Cloud Practitioner | January 2026 | 📚 Week 1/12 | 3.0/40 | $100 | - |
 | ⚪ AWS Solutions Architect Associate | April 2026 | 🔜 Upcoming | 0/80 | $150 | - |
 | ⚪ Certified Kubernetes Administrator | July 2026 | 🔜 Upcoming | 0/100 | $395 | - |
 | ⚪ AWS Solutions Architect Professional | October 2026 | 🔜 Upcoming | 0/120 | $300 | - |
@@ -79,14 +79,14 @@ This learning path includes a complete gamification system with:
 **🚀 Current Stats:**
 ```
 Level:          [ 1 ] Cloud Seedling 🌱
-Total XP:       [    50 / 500 ]
-Streak:         [ 1 ] days 🔥
+Total XP:       [   100 / 500 ]
+Streak:         [ 2 ] sessions completed 🔥
 Achievements:   [ 0 / 85 ] unlocked
 ```
 
-**Today's Achievement:** ✅ Day 1 complete! First 50 XP earned and streak started! 🔥
+**Latest Achievement:** ✅ Day 2 complete! Learned EC2 and Serverless computing! 🚀
 
-**Tomorrow's Goal:** Continue building momentum with Day 2 - EC2 and Serverless Computing basics!
+**Next Goal:** Saturday lab session - Hands-on with EC2 instances and S3 buckets!
 
 [Learn more about the gamification system →](./Gamification/README.md)
 
@@ -197,59 +197,89 @@ Achievements:   [ 0 / 85 ] unlocked
 devops-learning-journey/
 │
 ├── README.md                          # You are here!
+├── DevOps_Learning_Path_12_Month_Curriculum.pdf
+├── devops_learning_calendar.ics
 │
-├── Week1/                             # ← CURRENT WEEK
-│   ├── README.md                      # Week 1 detailed notes
-│   ├── Day1-Cloud-Intro.md            # Today's learning
-│   ├── Day2-AWS-Setup.md
-│   ├── labs/                          # Hands-on exercises
-│   │   ├── ec2-first-instance.md
-│   │   └── s3-bucket-setup.md
-│   ├── notes/                         # Study notes
-│   ├── screenshots/                   # Visual documentation
-│   └── commands.sh                    # Useful commands learned
+├── Week01/                            # ← CURRENT WEEK
+│   ├── README.md                      # Week 1 overview and goals
+│   ├── Day1-notes.md                  # Cloud Computing Fundamentals
+│   ├── Day2-notes.md                  # AWS Core Services
+│   ├── Day3-notes.md                  # EC2 and Compute
+│   ├── Day4-notes.md                  # Storage and Databases
+│   ├── commands.sh                    # Useful AWS CLI commands
+│   ├── labs/                          # Hands-on lab exercises
+│   │   └── lab1-placeholder.md
+│   └── notes/                         # Additional study notes
+│       └── week-summary.md
 │
-├── Week2/                             # Core AWS Services
-│   ├── README.md
-│   └── ...
+├── Week02-Week48/                     # Similar structure for all weeks
+│   ├── README.md                      # Week overview
+│   ├── Day1-notes.md through Day4-notes.md
+│   ├── commands.sh
+│   ├── labs/
+│   └── notes/
 │
-├── [Week3-48]/                        # Future weeks
-│
-├── Projects/                          # Major projects
+├── Projects/                          # 12 Major Portfolio Projects
 │   ├── Project-01-Multi-Tier-App/
-│   │   ├── README.md
-│   │   ├── architecture-diagram.png
-│   │   ├── terraform/
-│   │   └── screenshots/
+│   │   └── README.md
 │   ├── Project-02-Secure-Architecture/
 │   ├── Project-03-Serverless-Blog/
-│   ├── [...]
+│   ├── Project-04-Multi-Region/
+│   ├── Project-05-IaC-Automation/
+│   ├── Project-06-Microservices-CICD/
+│   ├── Project-07-Enterprise-Architecture/
+│   ├── Project-08-Kubernetes-Platform/
+│   ├── Project-09-Observability/
+│   ├── Project-10-Production-K8s/
+│   ├── Project-11-Cloud-Migration/
 │   └── Project-12-Capstone/
+│       └── README.md
 │
 ├── Certifications/                    # Certification prep materials
 │   ├── AWS-Cloud-Practitioner/
+│   │   ├── README.md
 │   │   ├── study-notes.md
-│   │   ├── practice-exams/
 │   │   └── exam-day-report.md
 │   ├── AWS-Solutions-Architect-Associate/
+│   │   ├── README.md
+│   │   ├── study-notes.md
+│   │   └── exam-day-report.md
 │   ├── CKA/
+│   │   ├── README.md
+│   │   ├── study-notes.md
+│   │   └── exam-day-report.md
 │   └── AWS-Solutions-Architect-Professional/
+│       ├── README.md
+│       ├── study-notes.md
+│       └── exam-day-report.md
+│
+├── Gamification/                      # Gamified Learning System
+│   ├── README.md                      # System overview
+│   ├── GAMIFICATION_GUIDE.md          # Complete guide
+│   ├── XP_TRACKER.md                  # Progress dashboard
+│   └── QUICK_REFERENCE.md             # Daily reference sheet
 │
 ├── Resources/                         # Learning materials
-│   ├── Books.md                       # Books I'm reading
+│   ├── Books.md                       # Reading list
 │   ├── Courses.md                     # Online courses
-│   ├── Cheatsheets/                   # Quick reference guides
-│   │   ├── aws-cli-commands.md
-│   │   ├── docker-commands.md
-│   │   ├── kubectl-commands.md
-│   │   └── terraform-commands.md
-│   └── Useful-Links.md                # Helpful resources
+│   ├── Useful-Links.md                # Helpful resources
+│   └── Cheatsheets/                   # Quick reference guides
+│       ├── aws-cli-commands.md
+│       ├── docker-commands.md
+│       ├── kubectl-commands.md
+│       └── terraform-commands.md
 │
-├── Scripts/                           # Automation scripts
-│   ├── setup/                         # Environment setup scripts
-│   └── utils/                         # Utility scripts
+├── Scripts/                           # Automation & utilities
+│   ├── README.md
+│   ├── utils/
+│   │   └── xp_tracker_v2.py           # XP tracking automation
+│   └── gamification/
+│       ├── README.md
+│       ├── FEATURES.md
+│       ├── WINDOWS_USAGE.md
+│       └── SETUP_COMPLETE.md
 │
-└── Blog-Posts/                        # Drafts of blog content
+└── Blog-Posts/                        # Public learning content
     └── week-1-getting-started.md
 ```
 
@@ -301,8 +331,8 @@ devops-learning-journey/
 
 | Week | Topic | Status | Study Hours | Highlights |
 |------|-------|--------|-------------|------------|
-| [Week 1](./Week1/README.md) | Introduction to Cloud & AWS | 🔄 **DAY 1** | 0/9 | Starting today! |
-| [Week 2](./Week2/README.md) | Core AWS Services | ⏳ Upcoming | 0/9 | EC2 deep dive, VPC, IAM |
+| [Week 1](./Week01/README.md) | Introduction to Cloud & AWS | 🔄 **DAY 2** | 3.0/9 | Cloud fundamentals, EC2, Serverless! |
+| [Week 2](./Week02/README.md) | Core AWS Services | ⏳ Upcoming | 0/9 | EC2 deep dive, VPC, IAM |
 | [Week 3](./Week3/README.md) | Linux Fundamentals | ⏳ Upcoming | 0/9 | Command line mastery |
 | [Week 4](./Week4/README.md) | Networking Basics | ⏳ Upcoming | 0/9 | TCP/IP, Project 1 |
 | [Week 5](./Week5/README.md) | Database Services | ⏳ Upcoming | 0/9 | RDS, DynamoDB |
@@ -434,14 +464,14 @@ devops-learning-journey/
 ### 📊 Learning Metrics (Updated Daily)
 ```
 Progress Dashboard:
-├── Total Study Hours:          0 / 384 hours
-├── Weeks Completed:            0 / 48 weeks  
-├── Study Sessions Completed:   0 / 192 sessions
+├── Total Study Hours:          3.0 / 384 hours
+├── Weeks Completed:            0 / 48 weeks
+├── Study Sessions Completed:   2 / 192 sessions
 ├── Projects Built:             0 / 12 projects
 ├── Certifications Earned:      0 / 4 certifications
-├── GitHub Commits:             1 (This README!)
+├── GitHub Commits:             3+ (Day 1 & 2 complete!)
 ├── Blog Posts Written:         0
-└── Days on Journey:            1 (Started Nov 4, 2025)
+└── Days on Journey:            4 (Started Nov 4, 2025)
 ```
 
 ### 🎯 Monthly Goals

@@ -1,46 +1,70 @@
 # Week 1: Introduction to Cloud & AWS
 
-**Phase 1: Foundation**  
-**Status:** 🔄 In Progress  
-**Study Hours:** 0 / 9 hours  
+**Phase 1: Foundation**
+**Status:** 🔄 In Progress
+**Study Hours:** 1.67 / 9 hours
 
 ---
 
 ## 📚 Learning Objectives
 
-This week focuses on introduction to cloud & aws.
+This week focuses on introduction to cloud computing fundamentals and AWS core services.
 
 ### Key Topics:
-- Topic 1
-- Topic 2
-- Topic 3
-- Topic 4
+- Cloud Computing Fundamentals & Service Models
+- AWS Global Infrastructure (Regions & Availability Zones)
+- AWS Shared Responsibility Model
+- AWS Core Services (EC2, S3, Lambda)
 
 ---
 
 ## 📅 Daily Breakdown
 
-### Day 1 (Tuesday Evening - 1.5 hours)
+### Day 1 (Tuesday Evening - 1.67 hours) ✅ COMPLETED
 **Topics:**
-- Introduction to main concepts
-- Theory and foundational knowledge
+- Introduction to Cloud Computing
+- Client-Server Model & Pay-As-You-Go Pricing
+- AWS Global Infrastructure (Regions & Availability Zones)
+- AWS Shared Responsibility Model
+- Benefits of AWS Cloud
+
+**Key Learnings:**
+- ☁️ Cloud computing = On-demand IT resources over internet with pay-as-you-go pricing
+- 🌍 AWS Regions contain minimum 3 physically separate Availability Zones
+- 🛡️ High availability achieved by distributing resources across multiple AZs
+- 🔒 Shared Responsibility: AWS secures infrastructure, customers secure data/applications
+- 💰 Six key benefits: Pay-as-you-go, economies of scale, stop guessing capacity, speed/agility, no data center costs, global reach
 
 **Resources:**
-- [ ] Video/Course modules
-- [ ] Documentation reading
+- [x] AWS Cloud Practitioner Essentials - Module 1
+- [x] AWS Documentation on Cloud Computing
+- [x] AWS Shared Responsibility Model Documentation
+- [x] Regions and Availability Zones Overview
 
 **Notes:** See `Day1-notes.md`
 
 ---
 
-### Day 2 (Thursday Evening - 1.5 hours)
+### Day 2 (Thursday Evening - 1.5 hours) ✅ COMPLETED
 **Topics:**
-- Deep dive into concepts
-- Practical examples
+- Amazon EC2 (Elastic Compute Cloud)
+- EC2 Instance Types (General Purpose, Compute, Memory, Accelerated, Storage)
+- How to Provision AWS Resources (Console, CLI, SDK)
+- Amazon Machine Images (AMI)
+- EC2 Pricing Models
+- Introduction to Autoscaling and Load Balancing
+
+**Key Learnings:**
+- 🖥️ EC2 provides resizable compute capacity with vertical scaling and networking control
+- 📦 5 EC2 instance types: General Purpose, Compute Optimized, Memory Optimized, Accelerated Computing, Storage Optimized
+- 🛠️ Three ways to provision resources: AWS Console (beginners), CLI (automation), SDK (developers)
+- 💿 AMIs enable consistent, repeatable environments for deployment automation
+- 💰 EC2 offers flexible pricing models to optimize costs
 
 **Resources:**
-- [ ] Tutorials
-- [ ] Hands-on exercises
+- [x] AWS Cloud Practitioner Essentials - Module 2
+- [x] EC2 Instance Types documentation
+- [x] Watched EC2 Launch Demo
 
 **Notes:** See `Day2-notes.md`
 
@@ -89,47 +113,66 @@ This week focuses on introduction to cloud & aws.
 ## 📝 Notes & Resources
 
 **Key Concepts Learned:**
-- Concept 1
-- Concept 2
-- Concept 3
+- **Cloud Computing:** On-demand delivery of IT resources over the internet with pay-as-you-go pricing
+- **AWS Regions:** Physical locations around the world containing groups of data centers (minimum 3 AZs each)
+- **Availability Zones (AZs):** One or more isolated data centers with redundant power, networking, and connectivity
+- **Shared Responsibility Model:** AWS secures the infrastructure (OF the cloud), customers secure their data/applications (IN the cloud)
+- **Cloud Deployment Models:** Cloud-based, On-premise, and Hybrid approaches
+- **High Availability:** Distribute resources across multiple AZs to prevent single points of failure
 
 **Useful Commands:**
 ```bash
 # Add commands learned this week to commands.sh
+# (No CLI commands learned on Day 1 - theoretical foundation)
 ```
 
 **Resources Used:**
-- [Resource 1]
-- [Resource 2]
-- [Resource 3]
+- [AWS Cloud Practitioner Essentials](https://skillbuilder.aws/learn/94T2BEN85A/aws-cloud-practitioner-essentials/8D79F3AVR7)
+- [What is Cloud Computing?](https://aws.amazon.com/what-is-cloud-computing/?nc1=f_cc)
+- [AWS Shared Responsibility Model](https://aws.amazon.com/compliance/shared-responsibility-model/)
+- [Regions and Availability Zones](https://aws.amazon.com/about-aws/global-infrastructure/regions_az/)
 
 ---
 
 ## 💡 Challenges & Solutions
 
-### Challenge 1: [Problem faced]
-**Solution:** [How you solved it]  
-**Learning:** [What you learned]
+### Challenge 1: Understanding Regions vs Availability Zones
+**Problem:** Initially confused about the practical difference between AWS Regions and Availability Zones. The concepts seemed similar.
+
+**Solution:**
+- Watched AWS Cloud Practitioner Essentials Module 1 video
+- Explored AWS Console to see regions and AZs visually
+- Drew diagrams to understand the hierarchy
+- Researched example architectures
+
+**Learning:**
+- **Regions** are large geographic areas (e.g., US East, Europe, Asia Pacific)
+- **Availability Zones** are isolated data centers within a region
+- **Best Practice:** Deploy across multiple AZs for high availability
+- **Mental Model:** Region (Country/Continent) → AZ (City/Data Center) → Data Center (Building)
 
 ---
 
 ## ✅ Week Completion Checklist
 
-- [ ] Completed all 4 study sessions (9 hours)
+- [x] Completed study session 1/4 (1.67 hours)
+- [x] Completed study session 2/4 (1.5 hours)
+- [ ] Completed study session 3/4 (Saturday labs)
+- [ ] Completed study session 4/4 (Sunday project)
 - [ ] Finished all labs
-- [ ] Updated notes and documentation
-- [ ] Committed code to GitHub
+- [x] Updated notes and documentation
+- [x] Committed code to GitHub
 - [ ] Wrote weekly blog post
-- [ ] Updated main README progress
+- [x] Updated main README progress
 - [ ] Engaged with community
 
 ---
 
 ## 📈 Progress
 
-**Time Invested:** 0 / 9 hours  
-**Labs Completed:** 0 / 2  
-**Commits Made:** 0  
+**Time Invested:** 3.17 / 9 hours (35.2%)
+**Labs Completed:** 0 / 2
+**Commits Made:** 3+ (Day 1 & 2 complete)  
 
 **Next Week:** Week 2 - Core AWS Services
 

@@ -1,8 +1,8 @@
 # 🎯 DevOps Journey - XP & Progress Tracker
 
-**Last Updated:** November 04, 2025
+**Last Updated:** November 07, 2025
 **Current Level:** 1 - Cloud Seedling 🌱
-**Total XP:** 50 / 500 (to Level 2)
+**Total XP:** 100 / 500 (to Level 2)
 
 ---
 
@@ -13,24 +13,24 @@
 🎖️  LEVEL 1: CLOUD SEEDLING 🌱
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-⚡ Experience:          50 / 500 XP
-📈 Progress:            [██░░░░░░░░░░░░░░░░░░] 10%
-🔥 Study Streak:        1 days
+⚡ Experience:          100 / 500 XP
+📈 Progress:            [████░░░░░░░░░░░░░░░░] 20%
+🔥 Study Streak:        1 days (scheduled: 2/4 sessions)
 📅 Week Streak:         0 weeks
-💻 Commit Streak:       1 days
+💻 Commit Streak:       2 days
 
 🏆 Achievements:        0 / 85 unlocked
 📚 Weeks Completed:     0 / 48
 🎓 Certifications:      0 / 4
 🎯 Projects Done:       0 / 12
 
-⏱️  Total Study Time:   1.5 / 384 hours
+⏱️  Total Study Time:   3.0 / 384 hours
 📝 Blog Posts:          0
 💬 Community Helps:     0
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 🎯 NEXT MILESTONE: Reach Level 2 (500 XP)
-🔥 NEXT STREAK GOAL: 7-Day Streak (+100 XP Bonus)
-🏆 NEXT ACHIEVEMENT: First Steps (Complete Day 1)
+🔥 NEXT STREAK GOAL: Complete Week 1 (4/4 sessions)
+🏆 NEXT ACHIEVEMENT: First Steps (Complete Day 1) ✅
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ```
 
@@ -42,14 +42,13 @@
 
 | Date | Day | Activities | XP Earned | Cumulative | Streak |
 |------|-----|------------|-----------|------------|--------|
-| Nov 4 | Mon | Repository setup | +0 | 0 | 0🌱 |
-| Nov 4 | Tue | Study session 1 | +0 | 0 | 0🌱 |
-| Nov 7 | Thu | Study session 2 | | | |
+| Nov 4 | Tue | Study session 1 (Cloud fundamentals) | +50 | 50 | 1🌱 |
+| Nov 7 | Thu | Study session 2 (EC2 & Serverless) | +50 | 100 | 2🔥 |
 | Nov 9 | Sat | Lab session | | | |
 | Nov 10 | Sun | Project work + blog | | | |
 
-**Week 1 Total:** 0 / 400 XP  
-**Week 1 Progress:** [░░░░░░░░░░░░░░░░░░░░] 0%
+**Week 1 Total:** 100 / 400 XP
+**Week 1 Progress:** [█████░░░░░░░░░░░░░░░] 25%
 
 ---
 
@@ -217,37 +216,40 @@ Level 10: [░░░░░░░░░░░░░░░░░░░░]   0% (0
 
 ## 📝 Activity Log
 
-### Today: November 4, 2025 (Day 1)
+### November 4, 2025 (Day 1) ✅
 
-**Time:** [Start time] - [End time]  
-**Duration:** 0 hours
+**Time:** 21:00 - 22:40 EAT
+**Duration:** 1.67 hours
 
 **Activities Completed:**
-- [ ] Set up repository (+0 XP)
-- [ ] Reviewed gamification system (+0 XP)
-- [ ] Imported calendar (+0 XP)
+- [x] Introduction to Cloud Computing (+50 XP)
+- [x] AWS Global Infrastructure
+- [x] Shared Responsibility Model
+- [x] Completed Day1-notes.md
 
-**XP Earned Today:** 0 XP  
-**Cumulative XP:** 0 XP
+**XP Earned Today:** 50 XP
+**Cumulative XP:** 50 XP
 
-**Mood:** 😊 Excited!  
-**Energy Level:** ⭐⭐⭐⭐⭐ (5/5)  
-**Notes:** Day 1 begins! Ready to start this journey!
+**Mood:** 😊 Excited and motivated!
+**Energy Level:** ⭐⭐⭐⭐ (4/5)
+**Notes:** Day 1 complete! Learned fundamentals of cloud computing and AWS infrastructure.
 
 ---
 
-### [Date] - Day [X]
+### November 7, 2025 (Day 2) ✅
 
-**Time:** [Start] - [End]  
-**Duration:** [X] hours
+**Time:** Evening session
+**Duration:** 1.5 hours
 
-**Activities:**
-- [ ] Activity 1 (+XP)
-- [ ] Activity 2 (+XP)
+**Activities Completed:**
+- [x] EC2 and Compute services (+50 XP)
+- [x] Serverless computing (Lambda)
+- [x] Completed Day2-notes.md
+- [x] Updated documentation
 
-**XP Earned:** 0 XP  
-**Cumulative:** 0 XP  
-**Streak:** 0 days
+**XP Earned Today:** 50 XP
+**Cumulative XP:** 100 XP
+**Streak:** 2 study sessions
 
 ---
 
@@ -324,7 +326,8 @@ Level 10: [░░░░░░░░░░░░░░░░░░░░]   0% (0
 
 | Date | XP Added | New Total | Level | Notes |
 |------|----------|-----------|-------|-------|
-| Nov 4, 2025 | +0 | 0 | 1 | Journey begins! |
+| Nov 4, 2025 | +50 | 50 | 1 | Journey begins! Day 1 complete |
+| Nov 7, 2025 | +50 | 100 | 1 | Day 2 complete - EC2 & Serverless |
 
 ---
 

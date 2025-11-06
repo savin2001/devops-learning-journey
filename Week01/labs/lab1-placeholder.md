@@ -2,16 +2,17 @@
 
 **Week 1**  
 **Duration:** 45 minutes  
-**Difficulty:** Beginner/Intermediate/Advanced
+**Difficulty:** Beginner
 
 ---
 
 ## 🎯 Objectives
 
 By the end of this lab, you will:
-- Objective 1
-- Objective 2
-- Objective 3
+- Launching an Amazon EC2 Instance
+- Make the instance a web server
+- Confirm availability of the webserver by viewing the webpage
+- Create S3 bucket
 
 ---
 
