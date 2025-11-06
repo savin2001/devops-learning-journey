@@ -666,7 +666,7 @@ I'm learning in public and would love to connect with others on a similar journe
 - [ ] Create AWS Free Tier account
 - [ ] Install Git on your machine
 - [ ] Set up code editor (VS Code recommended)
-- [ ] Join DevOps communities on Reddit, Discord
+- [ ] Join DevOps communities on Reddit, Twitter
 
 **Step 4: First Study Session (Tonight!)**
 - [ ] 6:00 PM EAT - Start Week 1 content
